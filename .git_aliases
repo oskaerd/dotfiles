@@ -1,0 +1,11 @@
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	amd = "commit --amend"
+	amdn = "commit --amend --no-edit"
+	aa = "add -A"
+	cfdx = "clean -fdx"
+
+[core]
+	editor = vim
