@@ -6,6 +6,11 @@
 	amdn = "commit --amend --no-edit"
 	aa = "add -A"
 	cfdx = "clean -fdx"
+	stasha = "stash --include-untracked"
+	changes = "diff HEAD~1"
+	crap = "checkout -- ."
+	crapcrap = "reset --hard HEAD"
+	smallcrap = "reset --soft HEAD~1"
 
 [core]
 	editor = vim
