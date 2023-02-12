@@ -3,3 +3,9 @@ alias python=python3
 alias py=python3
 alias ll="ls -l"
 alias cls=clear
+alias cube="$HOME/STM32CubeMX/STM32CubeMX"
+
+openocd_stmserver () {
+  openocd -f "/usr/local/share/openocd/scripts/interface/stlink.cfg" -f "/usr/local/share/openocd/scripts/board/$1.cfg"
+}
+
